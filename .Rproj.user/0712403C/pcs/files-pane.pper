@@ -5,5 +5,5 @@
             "ascending": false
         }
     ],
-    "path": "~/website/_site"
+    "path": "~/website/_site/.github/workflows"
 }
