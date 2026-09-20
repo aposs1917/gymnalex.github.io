@@ -6,7 +6,6 @@ title: "Projects"
 
 Here are some of my data analysis projects.
 
-
 ## Penn World Tables
 
 This is an analysis of PWT tables
