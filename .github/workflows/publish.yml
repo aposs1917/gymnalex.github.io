@@ -32,14 +32,24 @@ jobs:
           which R
           echo "Rscript is at:"
           which Rscript
-          echo "R version:"
           R --version
-          echo "Setting QUARTO_R..."
           echo "QUARTO_R=$(dirname "$(which Rscript)")" >> "$GITHUB_ENV"
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "ggpubr", "readxl"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages("rmarkdown", repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages("knitr", repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages("tidyverse", repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages("ggpubr", repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages("readxl", repos="https://cloud.r-project.org")'
+
+      - name: Check R packages
+        run: |
+          Rscript -e 'library(rmarkdown); cat("rmarkdown OK\n")'
+          Rscript -e 'library(knitr); cat("knitr OK\n")'
+          Rscript -e 'library(tidyverse); cat("tidyverse OK\n")'
+          Rscript -e 'library(ggpubr); cat("ggpubr OK\n")'
+          Rscript -e 'library(readxl); cat("readxl OK\n")'
 
       - name: Render website
         run: quarto render
