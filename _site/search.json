@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of my data analysis projects.\n\n\nThis is an analysis of PWT tables\nPenn world tables →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "Hi i am Alexandros Gymnopoulos👋\nI’m a data analyst / researcher / economist] interested in using data to understand real-world problems.\nI work primarily with R, and this website contains some of my data analysis and visualization projects.\n\nLinkedIn"
+  },
+  {
+    "objectID": "projects/PWT.html",
+    "href": "projects/PWT.html",
+    "title": "Penn World Tables project",
+    "section": "",
+    "text": "Penn World Tables is a multi-country long-run collection of time series for various countries\n\n\nWe will analyze some of the basic trends concercning various indicators such as consumption to gdp, investment to gdp, etc\nWe will start with loading the required libraries\n\noptions(warn=-1)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggplot2)\nlibrary(ggpubr)\nlibrary(readxl)"
+  },
+  {
+    "objectID": "projects/PWT.html#about-the-project",
+    "href": "projects/PWT.html#about-the-project",
+    "title": "Housing Market Analysis",
+    "section": "",
+    "text": "This project explores housing data using R."
+  },
+  {
+    "objectID": "projects/PWT.html#tools",
+    "href": "projects/PWT.html#tools",
+    "title": "Housing Market Analysis",
+    "section": "",
+    "text": "R\ntidyverse\nggplot2"
+  },
+  {
+    "objectID": "projects/PWT.html#analysis",
+    "href": "projects/PWT.html#analysis",
+    "title": "Housing Market Analysis",
+    "section": "",
+    "text": "library(tidyverse)\ndata(mtcars)\nsummary(mtcars)"
+  },
+  {
+    "objectID": "projects/PWT.html#my-r-code",
+    "href": "projects/PWT.html#my-r-code",
+    "title": "My First R Project",
+    "section": "",
+    "text": "x &lt;- 1:10\n\nmean(x)\n\n[1] 5.5\n\nplot(x, x^2)"
+  },
+  {
+    "objectID": "projects.html#my-r-project",
+    "href": "projects.html#my-r-project",
+    "title": "Projects",
+    "section": "",
+    "text": "This is my R project.\nView the project →"
+  },
+  {
+    "objectID": "projects/PWT.html#objective",
+    "href": "projects/PWT.html#objective",
+    "title": "Penn World Tables project",
+    "section": "",
+    "text": "We will analyze some of the basic trends concercning various indicators such as consumption to gdp, investment to gdp, etc\nWe will start with loading the required libraries\n\noptions(warn=-1)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggplot2)\nlibrary(ggpubr)\nlibrary(readxl)"
+  },
+  {
+    "objectID": "projects.html#penn-world-tables",
+    "href": "projects.html#penn-world-tables",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an analysis of PWT tables\nPenn world tables →"
+  }
+]

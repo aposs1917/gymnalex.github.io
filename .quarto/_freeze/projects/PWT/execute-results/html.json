@@ -1,0 +1,17 @@
+{
+  "hash": "3a86501211a7c67e401a9320bb2832b4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Penn World Tables project\n---\n\n# Penn World Tables\n\nPenn World Tables is a multi-country long-run collection of time series for various countries\n\n## Objective\nWe will analyze some of the basic trends concercning various indicators such as consumption to gdp, investment to gdp, etc\n\n\nWe will start with loading the required libraries\n\n::: {.cell}\n\n```{.r .cell-code}\noptions(warn=-1)\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n\n\n:::\n\n```{.r .cell-code}\nlibrary(ggplot2)\nlibrary(ggpubr)\nlibrary(readxl)\n```\n:::\n\n",
+    "supporting": [
+      "PWT_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

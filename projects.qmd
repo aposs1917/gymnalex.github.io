@@ -1,0 +1,14 @@
+---
+title: "Projects"
+---
+
+# My Projects
+
+Here are some of my data analysis projects.
+
+
+## Penn World Tables
+
+This is an analysis of PWT tables
+
+[Penn world tables →](projects/PWT.qmd)

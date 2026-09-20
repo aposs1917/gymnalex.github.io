@@ -1,0 +1,20 @@
+---
+title: Penn World Tables project
+---
+
+# Penn World Tables
+
+Penn World Tables is a multi-country long-run collection of time series for various countries
+
+## Objective
+We will analyze some of the basic trends concercning various indicators such as consumption to gdp, investment to gdp, etc
+
+
+We will start with loading the required libraries
+```{r}
+options(warn=-1)
+library(tidyverse)
+library(ggplot2)
+library(ggpubr)
+library(readxl)
+```
