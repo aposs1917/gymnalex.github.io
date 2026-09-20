@@ -37,6 +37,10 @@ jobs:
           echo "Setting QUARTO_R..."
           echo "QUARTO_R=$(dirname "$(which Rscript)")" >> "$GITHUB_ENV"
 
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("knitr", "rmarkdown", "tidyverse", "ggpubr", "readxl"), repos="https://cloud.r-project.org")'
+
       - name: Render website
         run: quarto render
 
